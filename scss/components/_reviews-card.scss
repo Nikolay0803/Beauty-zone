@@ -1,0 +1,24 @@
+.reviews-card {
+  flex-basis: 316px;
+  height: 181px;
+  padding: 24px 32px;
+  border-radius: 32px;
+  background-color: var(--color-primary-white);
+  box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
+
+  &__item {
+    color: var(--color-secondary-dark);
+    text-align: center;
+    line-height: 1.33;
+    margin-bottom: 48px;
+  }
+  &__icon {
+    stroke: var(--color-primary-light);
+    margin-bottom: 12px;
+  }
+  &__icons {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+  }
+}

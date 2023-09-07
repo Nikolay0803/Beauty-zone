@@ -1,0 +1,11 @@
+.background-waves {
+  background-image: url(../img/background-waves.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+
+  @media screen and (min-width: $bp-desktop) {
+    width: auto;
+    height: auto;
+  }
+}

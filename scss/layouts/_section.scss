@@ -1,0 +1,27 @@
+.section {
+  padding: 20px 0;
+
+  @media screen and (min-width: $bp-tablet) {
+    padding: 48px 0;
+  }
+
+  &__title {
+    font-family: 'Roboto';
+    color: var(--color-primary-dark);
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    line-height: normal;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-family: 'Play';
+      font-size: 64px;
+      font-weight: 700;
+      margin-bottom: 48px;
+    }
+
+    &--centered {
+      text-align: center;
+    }
+  }
+}

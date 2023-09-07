@@ -1,0 +1,85 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  background: rgba(1, 31, 74, 0.4);
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.modal {
+  position: relative;
+  width: 100%;
+  max-width: 723px;
+  height: 100%;
+  max-height: 681px;
+  border-radius: 48px;
+  padding: 22px 64px;
+  background-color: var(--color-primary-dark);
+  background-image: url(../img/footer-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-y: auto;
+
+  @media screen and (min-width: $bp-tablet) {
+    padding: 42px 144px;
+  }
+
+  &__form-field {
+    margin-bottom: 24px;
+  }
+
+  &__btn-close {
+    position: absolute;
+    top: 42px;
+    right: 42px;
+    border: none;
+    padding: 0;
+    background-color: var(--color-primary-dark);
+  }
+  &__header {
+    font-family: 'Play';
+    width: 320px;
+    text-align: center;
+    color: var(--color-primary-white);
+    font-style: normal;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: normal;
+    padding: 0 40px;
+
+    @media screen and (min-width: $bp-desktop) {
+      width: 435px;
+      text-align: center;
+      font-size: 64px;
+      margin-bottom: 40px;
+      padding: 0;
+    }
+  }
+  &__text {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-primary-white);
+    margin-bottom: 32px;
+  }
+
+  &__close {
+    padding: 0;
+    background-color: var(--color-primary-dark);
+  }
+  &__button {
+    display: block;
+    margin: 0 auto 24px;
+  }
+  &__button:hover {
+    color: var(--color-primary-white);
+  }
+}

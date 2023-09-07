@@ -1,0 +1,28 @@
+@import './utils/fonts';
+@import './utils/variables';
+@import './utils/utils';
+@import './utils/texts';
+@import './base';
+
+@import './components/buttons';
+@import './components/links';
+@import './components/stars';
+@import './components/procedures-card';
+@import './components/carousel-button';
+@import './components/reviews-card';
+@import './components/background-waves';
+@import './components/input';
+@import './components/pagination';
+
+@import './layouts/header';
+@import './layouts/hero-section';
+@import './layouts/section';
+@import './layouts/container';
+@import './layouts/about-section';
+@import './layouts/reviews-section';
+@import './layouts/procedures-section';
+@import './layouts/contact-section';
+@import './layouts/footer';
+@import './layouts/mobile-menu';
+@import './layouts/modal';
+@import './layouts/form-terms';

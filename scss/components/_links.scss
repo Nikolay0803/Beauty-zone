@@ -1,0 +1,25 @@
+.link {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.link:hover {
+  color: var(--color-primary-light);
+}
+.address-icon {
+  fill: var(--color-primary-dark);
+}
+
+.address-icon:hover {
+  fill: var(--color-primary-light);
+}
+
+.logo {
+  width: 74px;
+  color: var(--color-primary-light);
+  font-family: Play;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: capitalize;
+}
